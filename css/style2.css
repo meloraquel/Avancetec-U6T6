@@ -7,13 +7,15 @@
   --textoprincipal: #1E293B;
   --offwhite: #F8FAFC;
   --white: #fff;
+  --FonteMenu: sans-serif
+  
 }
 
 /*Aplicação à todos os documentos*/
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-family: sans-serif, 'Montserrat','Times New Roman', Times, serif, ;
   box-sizing: border-box;
 
 }
@@ -92,8 +94,8 @@ section{
 
 .headersite{
   display: inline-block;
-  /* align-items: center; */
-  /* justify-content:space-between; */
+  align-items: center;
+  justify-content:space-between; 
   height: 100vh;
   padding: 0.5rem;
   background-color:var(--AzulDarkTech);
@@ -127,16 +129,21 @@ section{
   display: none;
 }
 
-/*
+
 @media (max-width: 700px){
+  .headersite{
+    width: 100px;
+  }
+
+
   .sitemenu{
-    display: block;
+    display: inline-block;
     position: absolute;
     top: 4.6875rem;
-    left: 0;
+    left: 3rem;
     background-color: var(--AzulDarkTech);
     text-align: center;
-    width: 100%;
+    width: 100px;
     height: 0;
     z-index: 1;
     visibility: hidden;
@@ -171,7 +178,7 @@ section{
 
   .sitemenu a{
   padding: 1rem 0;
-  margin-inline: 1rem;
+  margin-inline: 0.5rem;
   border-bottom: 0.0625rem solid var(--textoprincipal); 
   border-radius: 0;
 
@@ -197,6 +204,8 @@ section{
   }
 
 }
+/*
+
 
 */
 
