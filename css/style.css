@@ -6,6 +6,7 @@
   --textoprincipal: #1E293B;
   --offwhite: #F8FAFC;
   --white: #fff;
+  --bordas: #3a5a7a55;
 }
 
 /*Aplicação à todos os documentos*/
@@ -70,6 +71,9 @@ section{
 
 .mainlogo{
   text-align: center;
+  background-image: url("/assets/bginicial.png");
+  padding: 2%;
+  
 
 }
 
@@ -183,7 +187,10 @@ section{
 .dcursos{
   display: inline-block;
   width: 20%;
-  text-align: center; 
+  text-align: center;
+  background-color: var(--bordas);
+  border-radius: 15px; 
+  padding: 10px; 
 }
 
 button{

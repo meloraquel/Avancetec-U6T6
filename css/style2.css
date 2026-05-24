@@ -7,6 +7,7 @@
   --textoprincipal: #1E293B;
   --offwhite: #F8FAFC;
   --white: #fff;
+  --bordas: #3a5a7a99;
   --FonteMenu: sans-serif
   
 }
@@ -17,11 +18,12 @@
   padding: 0;
   font-family: sans-serif, 'Montserrat','Times New Roman', Times, serif, ;
   box-sizing: border-box;
+  color: var(--offwhite);
 
 }
 
 body{
-  background-image: url("/assets/bg.png");
+  background-image: url("/assets/bgdark1.png");
   background-position: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -31,7 +33,7 @@ body{
 
 a{
   text-decoration: none;
-  color: black;
+  color: var(--offwhite);
 }
 
 .texto{
@@ -70,6 +72,7 @@ footer{
   height: 2.5rem;
   position: static;
   box-sizing: border-box;
+  color: var(--textoprincipal);
 }
 /*------------------*/
 
@@ -86,6 +89,10 @@ section{
 
 .mainlogo{
   text-align: center;
+  background-image: url("/assets/bginicialdark.png");
+  padding: 2%;
+  
+
 
 }
 
@@ -214,17 +221,22 @@ section{
 .dcursos{
   display: inline-block;
   width: 20%;
-  text-align: center; 
+  text-align: center;
+  background-color: var(--bordas);
+  border-radius: 15px; 
+  padding: 10px;
 }
 
-button{
+.inscrever{
   background-color: var(--AzulDarkTech);
   color: var(--offwhite);
   font-size: 0.7rem;
   padding: 0.5rem;
+
+  
 }
 
-button:hover{
+.inscrever:hover{
   background-color: var(--verdeinovacao);
 
 }
