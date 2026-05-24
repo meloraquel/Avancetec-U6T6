@@ -23,7 +23,7 @@
 }
 
 body{
-  background-image: url("/assets/bgdark1.png");
+  background-image: url("../assets/bgdark1.png");
   background-position: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
